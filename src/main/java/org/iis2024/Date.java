@@ -84,4 +84,7 @@ public class Date {
       return false;
     }
   }
+  public String toString() {
+    return day + "/" + month + "/" + year;
+  }
 }
